@@ -130,7 +130,7 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	apiKey = flag.String("apikey", "", "Newsapi.org access key")
+	apiKey = flag.String("apikey", "8c1f870f05f646afb555ecf05ba04c38", "Newsapi.org access key")
 	flag.Parse()
 
 	if *apiKey == "" {
