@@ -1,2 +1,2 @@
 # news-go
-Building a news search request page using golang and using https://newsapi.org/
+Building a news search request page using golang and https://newsapi.org/
